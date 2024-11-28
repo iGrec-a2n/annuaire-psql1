@@ -1,5 +1,5 @@
 {
-    "name": "ynda/annuaire-psql1",
+    "name": "ynda/annuaire_psql1",
     "description": "Reprodusction d'un web annuaire de spectacle parisien. Projet SQL n°1.",
     "autoload": {
         "psr-4": {
@@ -12,5 +12,7 @@
             "email": "yannnda97@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
 }
