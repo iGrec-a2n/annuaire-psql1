@@ -1,0 +1,16 @@
+{
+    "name": "ynda/annuaire-psql1",
+    "description": "Reprodusction d'un web annuaire de spectacle parisien. Projet SQL n°1.",
+    "autoload": {
+        "psr-4": {
+            "Ynda\\AnnuairePsql1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yann N'DA",
+            "email": "yannnda97@gmail.com"
+        }
+    ],
+    "require": {}
+}
