@@ -11,7 +11,7 @@ use App\Auth\loginDb;
 
 $request = $_SERVER['REQUEST_URI'] ?? '/'; // on recupere les requetes qui sont faite par l'utilsateur depuis la db
 switch ($request) {
-    case '/Home':
+    case '/':
         $controller = new homeControllers(); // et dans chaque cas en fonction de ce qui est demandé on l'affiche grace au controllers
         $controller->main();
         break;
