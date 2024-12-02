@@ -1,3 +1,9 @@
+<?php
+
+require 'Form.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -7,7 +13,7 @@
 </head>
 
 <body>
-    <h1>Home</h1>
+
 </body>
 
 </html>

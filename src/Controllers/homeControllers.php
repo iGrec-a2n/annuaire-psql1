@@ -27,4 +27,9 @@ class homeControllers
     {
         include __DIR__ . '/../Views/NotFound.php';
     }
+
+    public function HandleForm()
+    {
+        include __DIR__ . '/../Views/Form.php';
+    }
 };

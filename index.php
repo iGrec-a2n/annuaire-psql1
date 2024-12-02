@@ -4,8 +4,10 @@ require __DIR__ . '/vendor/autoload.php';
 
 /* use App\Auth\loginDb; */
 
+
 use App\Controllers\homeControllers;
 use App\Auth\loginDb;
+
 
 
 
@@ -19,6 +21,10 @@ switch ($request) {
     case '/ProfilPage':
         $controller = new homeControllers();
         $controller->profil();
+        break;
+
+    case '/AuthForm':
+        require __DIR__ . '/src/Views/Form.php';
         break;
 
     default:
