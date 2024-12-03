@@ -1,5 +1,5 @@
 {
-    "name": "antoinemahassadi/annuaire-psql1",
+    "name": "ynda/annuaire_psql1",
     "description": "Reprodusction d'un web annuaire de spectacle parisien. Projet SQL n°1.",
     "autoload": {
         "psr-4": {
