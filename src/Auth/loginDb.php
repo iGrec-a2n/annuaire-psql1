@@ -6,7 +6,7 @@ class loginDb
 {
     private $host = '127.0.0.1'; // Adresse de l'hôte (localhost ou IP)
     private $port = '8889';      // Port MySQL (par défaut 3306 ou 8889 si configuré)
-    private $name_Db = 'spetacles2'; // Nom de la base de données
+    private $name_Db = 'spectacles2'; // Nom de la base de données
     private $username = 'root';      // Nom d'utilisateur MySQL
     private $password = 'root';      // Mot de passe MySQL
     private $conn;
